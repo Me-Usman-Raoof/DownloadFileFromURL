@@ -4,37 +4,17 @@ You are welcome to contribute in this
 
 How to Integrate!
 
-////////////////////////// For Gradle
-Step 1. Add the JitPack repository to your build file
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
- 
-Step 2. Add the dependency
-// In Module Levele build.gradle
-dependencies {
-	        implementation 'com.github.Me-Usman-Raoof:DownloadFileFromURL:Tag'
-	}
+``` For Gradle
+implementation 'com.github.Me-Usman-Raoof:DownloadFileFromURL:1.0.0'
+![image](https://github.com/Me-Usman-Raoof/DownloadFileFromURL/assets/76115762/aff1973b-1a4e-4a4b-8f87-1802c460b0f3)
 
-///////////////////////// For Maven
-Step 1. Add the JitPack repository to your build file
-
-<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
-
- Step 2. Add the dependency
-
- <dependency>
-	    <groupId>com.github.Me-Usman-Raoof</groupId>
-	    <artifactId>DownloadFileFromURL</artifactId>
-	    <version>1.0.0</version>
-	</dependency>
+``` For Maven
+```xml
+<dependency>
+    <groupId>com.github.Me-Usman-Raoof</groupId>
+    <artifactId>DownloadFileFromURL</artifactId>
+    <version>Tag</version>
+</dependency>
+![image](https://github.com/Me-Usman-Raoof/DownloadFileFromURL/assets/76115762/a4917ea8-344b-4273-8162-2294f1878496)
 
 Please check the latest version available
